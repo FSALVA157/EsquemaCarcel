@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T11:30:19.361Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="GXarEZ1WqWkbMIEmrCqE" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-13T11:30:57.838Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="9HiQtlxXI1BkU2tgq4DS" version="14.5.10" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1968" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -76,7 +76,7 @@
         <mxCell id="8b9HM4QsxEfkbiWS1Lj2-18" value="FK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#ffcd28;top=0;left=0;bottom=0;right=0;strokeColor=#d79b00;gradientColor=#ffa500;" parent="8b9HM4QsxEfkbiWS1Lj2-17" vertex="1">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8b9HM4QsxEfkbiWS1Lj2-19" value="sexo: int NOT NULL (clave foranea que lleva a la tabla sexo)" style="shape=partialRectangle;overflow=hidden;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#d79b00;fillColor=#ffcd28;gradientColor=#ffa500;" parent="8b9HM4QsxEfkbiWS1Lj2-17" vertex="1">
+        <mxCell id="8b9HM4QsxEfkbiWS1Lj2-19" value="sexo_id: int NOT NULL (clave foranea que lleva a la tabla sexo)" style="shape=partialRectangle;overflow=hidden;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#d79b00;fillColor=#ffcd28;gradientColor=#ffa500;" parent="8b9HM4QsxEfkbiWS1Lj2-17" vertex="1">
           <mxGeometry x="30" width="430" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8b9HM4QsxEfkbiWS1Lj2-20" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#006658;" parent="C-vyLk0tnHw3VtMMgP7b-23" vertex="1">
@@ -604,7 +604,7 @@
         <mxCell id="BV5_elxZDfxCk_Pcj965-141" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#006658;" parent="BV5_elxZDfxCk_Pcj965-139" vertex="1">
           <mxGeometry x="30" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BV5_elxZDfxCk_Pcj965-142" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;strokeColor=#006658;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="BV5_elxZDfxCk_Pcj965-133" edge="1">
+        <mxCell id="BV5_elxZDfxCk_Pcj965-142" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;strokeColor=#006658;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="BV5_elxZDfxCk_Pcj965-133" edge="1" target="8b9HM4QsxEfkbiWS1Lj2-17">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="-130.00000000000045" y="134.9999999999999" as="sourcePoint" />
             <mxPoint x="20" y="335" as="targetPoint" />
