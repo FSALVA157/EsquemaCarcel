@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T12:02:59.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="cA1kUu9c7rjyjSAXm5p5" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-13T12:08:26.819Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="ubON69wi2XFxc-u1k4uG" version="14.5.10" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1968" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -826,22 +826,22 @@
         <mxCell id="HgJnEcOAqNgugLVqBxD9-34" value="fecha_nacimiento: date" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#006658;" parent="HgJnEcOAqNgugLVqBxD9-32" vertex="1">
           <mxGeometry x="30" width="400" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HgJnEcOAqNgugLVqBxD9-35" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#006658;" parent="HgJnEcOAqNgugLVqBxD9-1" vertex="1">
+        <mxCell id="HgJnEcOAqNgugLVqBxD9-69" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#006658;" parent="HgJnEcOAqNgugLVqBxD9-1" vertex="1">
           <mxGeometry y="300" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HgJnEcOAqNgugLVqBxD9-70" value="FK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#ffcd28;top=0;left=0;bottom=0;right=0;strokeColor=#d79b00;align=left;gradientColor=#ffa500;spacingLeft=6;" parent="HgJnEcOAqNgugLVqBxD9-69" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HgJnEcOAqNgugLVqBxD9-71" value="sexo_id: int NOT NULL (clave foranea que lleva a la tabla sexo)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#ffcd28;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#d79b00;gradientColor=#ffa500;" parent="HgJnEcOAqNgugLVqBxD9-69" vertex="1">
+          <mxGeometry x="30" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HgJnEcOAqNgugLVqBxD9-35" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#006658;" parent="HgJnEcOAqNgugLVqBxD9-1" vertex="1">
+          <mxGeometry y="330" width="430" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HgJnEcOAqNgugLVqBxD9-36" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#006658;" parent="HgJnEcOAqNgugLVqBxD9-35" vertex="1">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HgJnEcOAqNgugLVqBxD9-37" value="telefono: varchar(50)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#006658;" parent="HgJnEcOAqNgugLVqBxD9-35" vertex="1">
-          <mxGeometry x="30" width="400" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HgJnEcOAqNgugLVqBxD9-69" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#006658;" parent="HgJnEcOAqNgugLVqBxD9-1" vertex="1">
-          <mxGeometry y="330" width="430" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HgJnEcOAqNgugLVqBxD9-70" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#ffcd28;top=0;left=0;bottom=0;right=0;strokeColor=#d79b00;align=left;gradientColor=#ffa500;spacingLeft=6;" parent="HgJnEcOAqNgugLVqBxD9-69" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HgJnEcOAqNgugLVqBxD9-71" value="sexo_id: int NOT NULL (clave foranea que lleva a la tabla sexo)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#ffcd28;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#d79b00;gradientColor=#ffa500;" parent="HgJnEcOAqNgugLVqBxD9-69" vertex="1">
           <mxGeometry x="30" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HgJnEcOAqNgugLVqBxD9-72" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#006658;" parent="HgJnEcOAqNgugLVqBxD9-1" vertex="1">
@@ -850,16 +850,16 @@
         <mxCell id="HgJnEcOAqNgugLVqBxD9-73" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#006658;" parent="HgJnEcOAqNgugLVqBxD9-72" vertex="1">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HgJnEcOAqNgugLVqBxD9-74" value="clave_control_parental: varchar ()(clave foranea a la tabla )" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#006658;" parent="HgJnEcOAqNgugLVqBxD9-72" vertex="1">
+        <mxCell id="HgJnEcOAqNgugLVqBxD9-74" value="domicilio: varchar(50) " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#006658;" parent="HgJnEcOAqNgugLVqBxD9-72" vertex="1">
           <mxGeometry x="30" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HgJnEcOAqNgugLVqBxD9-75" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#006658;" parent="HgJnEcOAqNgugLVqBxD9-1" vertex="1">
           <mxGeometry y="390" width="430" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HgJnEcOAqNgugLVqBxD9-76" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#006658;" parent="HgJnEcOAqNgugLVqBxD9-75" vertex="1">
+        <mxCell id="HgJnEcOAqNgugLVqBxD9-76" value="FK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#ffcd28;top=0;left=0;bottom=0;right=0;strokeColor=#d79b00;align=left;gradientColor=#ffa500;spacingLeft=6;" parent="HgJnEcOAqNgugLVqBxD9-75" vertex="1">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HgJnEcOAqNgugLVqBxD9-77" value="clave_control_parental_bis: varchar ()(clave foranea a la tabla )" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#006658;" parent="HgJnEcOAqNgugLVqBxD9-75" vertex="1">
+        <mxCell id="HgJnEcOAqNgugLVqBxD9-77" value="departamento_id: int NULLABLE" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#ffcd28;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#d79b00;gradientColor=#ffa500;" parent="HgJnEcOAqNgugLVqBxD9-75" vertex="1">
           <mxGeometry x="30" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HgJnEcOAqNgugLVqBxD9-78" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#006658;" parent="HgJnEcOAqNgugLVqBxD9-1" vertex="1">
@@ -868,7 +868,7 @@
         <mxCell id="HgJnEcOAqNgugLVqBxD9-79" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#006658;" parent="HgJnEcOAqNgugLVqBxD9-78" vertex="1">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HgJnEcOAqNgugLVqBxD9-80" value="clave_parental1: varchar ()(clave foranea a la tabla )" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#006658;" parent="HgJnEcOAqNgugLVqBxD9-78" vertex="1">
+        <mxCell id="HgJnEcOAqNgugLVqBxD9-80" value="prontuario_policial: varchar(30)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#006658;" parent="HgJnEcOAqNgugLVqBxD9-78" vertex="1">
           <mxGeometry x="30" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HgJnEcOAqNgugLVqBxD9-81" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#006658;" parent="HgJnEcOAqNgugLVqBxD9-1" vertex="1">
