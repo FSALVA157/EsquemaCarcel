@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T16:11:49.926Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="e2DcFVbyhvuZO5rr7yg1" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-21T16:12:23.569Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="KlQpfvoG_nTfHkJYXFpa" version="14.6.5" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1962" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1084,7 +1084,7 @@
         <mxCell id="hvBsftYyh3RkQdfZpFxx-3" value="FK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#006658;" vertex="1" parent="hvBsftYyh3RkQdfZpFxx-2">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hvBsftYyh3RkQdfZpFxx-4" value="unidad_id: int NOT NULL (relacion con tabla de unidades)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#006658;" vertex="1" parent="hvBsftYyh3RkQdfZpFxx-2">
+        <mxCell id="hvBsftYyh3RkQdfZpFxx-4" value="pabellon_id: int NOT NULL (relacion con tabla de pabellon)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#006658;" vertex="1" parent="hvBsftYyh3RkQdfZpFxx-2">
           <mxGeometry x="30" width="421" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jZpkgVF9uk8P164llcSB-20" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;strokeColor=#66041E;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.996;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3SHI_iZ0Xcn9j7IMHP_W-29" target="jZpkgVF9uk8P164llcSB-17" edge="1">
