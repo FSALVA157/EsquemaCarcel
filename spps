@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-23T12:30:10.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="tpl8Min02ejDsoq_mHYY" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-23T12:30:31.744Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="niacVO6jrTUrpPYYT-Nf" version="14.6.5" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2315" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -2198,7 +2198,7 @@
         <mxCell id="pFmpagwgvLT9LccKzSRW-56" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#006658;" vertex="1" parent="pFmpagwgvLT9LccKzSRW-55">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pFmpagwgvLT9LccKzSRW-57" value="reincidencia: varchar(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#006658;" vertex="1" parent="pFmpagwgvLT9LccKzSRW-55">
+        <mxCell id="pFmpagwgvLT9LccKzSRW-57" value="juzgado: varchar(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#006658;" vertex="1" parent="pFmpagwgvLT9LccKzSRW-55">
           <mxGeometry x="30" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pFmpagwgvLT9LccKzSRW-58" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#006658;" vertex="1" parent="pFmpagwgvLT9LccKzSRW-51">
