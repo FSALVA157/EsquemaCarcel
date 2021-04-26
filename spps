@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-23T17:32:47.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="mnZ_ZnN6T7lfae0kE3F7" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-26T15:36:37.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="iMnn5vuU_v0TBTmyl7dY" version="14.6.6" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1962" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1255,7 +1255,7 @@
         <mxCell id="hS4OgqCHa_U5dadl_ide-454" value="FK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#006658;" parent="hS4OgqCHa_U5dadl_ide-453" vertex="1">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hS4OgqCHa_U5dadl_ide-455" value="condena_juzgado_id: int NOT NULL (enlazado a PROVINCIA)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#006658;" parent="hS4OgqCHa_U5dadl_ide-453" vertex="1">
+        <mxCell id="hS4OgqCHa_U5dadl_ide-455" value="condena_juzgado_id: int NOT NULL (enlazado a JUZGADO)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#006658;" parent="hS4OgqCHa_U5dadl_ide-453" vertex="1">
           <mxGeometry x="30" width="421" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hvBsftYyh3RkQdfZpFxx-34" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#006658;" parent="HgJnEcOAqNgugLVqBxD9-1" vertex="1">
